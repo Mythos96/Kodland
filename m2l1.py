@@ -48,7 +48,7 @@ async def ranmoji(ctx):
 async def shutdown(ctx):
     if ctx.author.id == owner:
         await ctx.send("{Logging off}")
-        await bot.close
+        await bot.close()
     else:
         await ctx.send("Bu komutu kullanmak için yetkiniz yok!")
 
